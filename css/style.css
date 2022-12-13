@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ultra&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-size:15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    header, nav, h2, footer{
+        font-family: 'Roboto', sans-serif;
+    }
+    h1{
+        font-family: 'Ultra', serif;
+    }
+    header, main, nav, footer{
+        padding: 0 14vw;
+    }
+    /*header*/
+    h1{
+        font-family: 'Ultra', serif;
+    }
+    header a{
+        font-family: 800;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F03B3B;
+        color: #FFFFFF;
+        height: 5vh;
+    }
+    /*nav*/
+    nav a{
+        font-style: italic;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #96F9CF;
+        color: #000000;
+        height: 23vh;
+    }
+    nav a{
+        display: flex;
+        background-color: #96F9CF;
+        color: #000000;
+    }
+    nav img{
+        width: 10%;
+        height: auto;
+    }
+    /*main*/
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #000000;
+        color: #FFFFFF;
+        height: 65vh
+    }
+    /*footer*/
+    footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 7vh;
+}
+  
+ul li{
+    list-style: none;
+    font-weight: 800;
+    list-style-type: none;
+    }
+    #llistat{
+    display: flex;
+    width: 50;
+    background-color: #000000;
+    }
+   #llistat a{
+    color: #000000;
+    }
+   ul li:hover{
+    background-color: aqua;
+    color: #000000;
+
+   }
+   main{
+    justify-content: center;
+    align-items: center;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-size:15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    header, nav, h2, footer{
+        font-family: 'Roboto', sans-serif;
+    }
+    h1{
+        font-family: 'Ultra', serif;
+    }
+
+    footer, footer a{
+    }
+    header, main, nav, footer{
+        padding: 0 14vw;
+    }
+    /*header*/
+    h1{
+        font-family: 'Ultra', serif;
+    }
+    header a{
+        font-family: 800;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F03B3B;
+        color: #FFFFFF;
+        height: 8,33vh;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F03B3B;
+        color: #FFFFFF;
+        height: 8vh;
+    }
+    /*nav*/
+    nav a{
+        font-weight: 800;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #96F9CF;
+        color: #000000;
+        height: 25vh;
+    }
+    nav a{
+        display: flex;
+        background-color: #96F9CF;
+        color: #000000;
+    }
+     /*main*/
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        color: #FFFFFF;
+        height: 50vh;
+    }
+    main h2{
+        font-weight: 400;
+  
+    }
+    /*footer*/
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: #000000;
+        height: 17vh;
+    }
